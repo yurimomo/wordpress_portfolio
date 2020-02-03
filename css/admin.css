@@ -1,0 +1,144 @@
+/* common */
+.wrapper {
+	content: "";
+	display: block;
+	clear: both;
+}
+.container_admin {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 5%;
+}
+/*admin login*/
+.kanri{
+	float: left;
+	width: 40%;
+	padding: 20px;
+}
+.regist {
+	float: left;
+	width: 40%;
+	padding: 20px;
+}
+.name {
+	margin-right: 12px;
+	font-size: 24px;
+}
+.password {
+	margin-right: 15px;
+	font-size: 24px;
+}
+.kanri1 {
+	float: left;
+	width: 200px;
+}
+.kanri2 {
+float: right;
+width: auto;
+}
+.kanri2 input {
+	width: 100%;
+	border:1px solid #333;
+	background-color: #fff;
+	font-size: 1px;
+}
+.logout:hover {
+	background-color: #c0c0c0;
+	cursor: pointer;
+}
+.login_submit {
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px;
+	line-height: 1em;
+	transition: .3s;
+}
+.login_submit:hover {
+	background-color: #c0c0c0;
+	color: #fff;
+}
+/*admin page*/
+.pageform {
+	font-size: 18px;
+	width: 100px;
+	float: right;
+}
+.login_submit {
+	width: 100px;
+}
+input {
+	font-size: 1em;
+}
+.id {
+	width: 5%;
+	text-align: center;
+}
+.kokyaku_name {
+	width: 15%;
+}
+.email {
+	width:15%;
+}
+.contact_time {
+	width: 20%;
+}
+th,tr,td {
+	padding: 10px;
+	border: 1px solid #333;
+}
+/*logout bottom*/
+.submit {
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px;
+	line-height: 1em;
+	transition: .3s;
+}
+.submit:hover {
+	background-color: #c0c0c0;
+	color: #fff;
+}
+.page_nation_box {
+	padding-top: 50px;
+}
+
+.page_nation {
+	padding: 10px 4px;
+	text-decoration: none;
+	margin-right: 5px;
+	width: 40px;
+	border: 1px solid #ccc;
+	/*background-color: #f9f9f9;*/
+	background-color: #fff;
+	color: #8E8D8C;
+	display: inline-block;
+	text-align: center;
+}
+.page_current {
+	background-color: #ccc;
+	color: #fff;
+}
+.
+/*スマホ320-559-max-width:最大*/
+@media screen and (max-width: 559px) {
+body {
+	padding: 0px;
+}
+.container_admin {
+	font-size: 12px;
+	padding: 1%;
+}
+.container_admin tr th td {
+	padding: 0;
+}
+.email {
+	display: none;
+}
+
+}
